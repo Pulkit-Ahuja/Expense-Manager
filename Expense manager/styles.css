@@ -1,0 +1,114 @@
+body{
+    margin:0px;
+    padding: 0px;
+    background-color:#242424;
+    color:white;
+}
+h1{
+   font-size: 300%;
+    text-align: center;
+    margin: 0 auto;
+    color:white;
+    padding: 20px 0px;
+    font-family:"Fauna One";
+    font-style: italic;
+}
+.nav{
+    background-color: #363636;
+    padding:10px;
+    padding-left:20px;
+    margin-top: 30px;
+    padding-bottom: 0px;
+    border-bottom: 0.5px solid white;
+}
+button{
+    width:110px;
+    height:50px;
+    display: inline-block;
+    border-radius: 8px 8px 0px 0px;
+    border:2px solid #74cbcf;
+    margin-right:20px;
+    vertical-align: middle;
+    font-size: 103%;
+    background-color: #c8f5f7;
+    font-family: "Cherry Swash";
+    transition: background-color 1s;
+}
+button:hover{
+    background-color:#8cf5fa ;
+}
+#trans{
+    display: none;
+}
+#tracker{
+    display: none;
+}
+.slogan{
+    float:right;
+    margin-right:300px;
+    font-size: 150%;
+    display: block;
+    margin-top: -10px;
+    font-family: "Charmonman";
+}
+.msg{
+    padding:20px;
+    display: block;
+    margin:30px auto;
+    width:30%;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 110%;;
+}
+.hello{
+    font-family: "Charmonman";
+    font-weight: 1000;
+    font-size: larger;
+}
+.end{
+    font-style: italic;
+    font-weight: bold;
+}
+#form1, #form2{
+    margin:0 auto;
+    width:30%;
+    padding: 30px;
+    background-color: white;
+    color:black;
+    text-align: center;
+    font-size: 110%;
+    border-radius: 5px;
+    margin-top: 30px;
+    display: none;
+}
+tr,td{
+    text-align: left;
+}
+input, select
+{
+    width:200px;
+    height:30px;
+    text-align:right;
+    margin: 10px;
+}
+input[type = "submit"]
+{
+    text-align:center;
+    height:40px;
+    width:100px;
+    border-radius: 10px;
+    background: linear-gradient(#078adb,#92c7e8);
+    font-size: 120%;
+    color: whitesmoke;
+    border:2px solid lightblue;
+}
+#message, #output{
+    margin:20px 0px;
+}
+table{
+    margin-top:30px;
+}
+h3{
+    margin-top:10px;
+}
